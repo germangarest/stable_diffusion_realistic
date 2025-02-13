@@ -146,9 +146,9 @@ def build_prompt():
 # ===============================
 
 # Título y descripción
-st.markdown('<h1 class="title">Generador de Imágenes Realistas</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">RealGEN</h1>', unsafe_allow_html=True)
 st.markdown("""
-Esta aplicación genera imágenes **realistas** basándose en parámetros predefinidos.
+RealGEN es una aplicación que genera imágenes **realistas** basándose en parámetros predefinidos.
 Utiliza los controles en la barra lateral para configurar tu imagen. El prompt final se genera automáticamente en inglés y se envía a la API de Stable Diffusion.
 """)
 
