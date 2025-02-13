@@ -1,4 +1,4 @@
-# Generador de imágenes realistas
+# RealGEN
 
 Esta aplicación web permite generar imágenes **realistas** utilizando la API de Stable Diffusion Web UI. En lugar de que el usuario deba escribir un prompt manualmente, se ofrecen diversos controles interactivos (selectboxes, sliders, checkboxes, etc.) para configurar los parámetros deseados. La aplicación traduce estas selecciones en un prompt detallado que se envía a la API para generar la imagen.
 
@@ -21,30 +21,30 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 
 ## Características de la Aplicación
 
-- **Interfaz web interactiva:**  
+- **Interfaz Web Interactiva:**  
   Desarrollada en *Streamlit*, que permite una experiencia sencilla e intuitiva.
-- **Selección de parámetros:**  
+- **Selección de Parámetros:**  
   El usuario puede elegir entre diferentes opciones para definir:
   - **Tipo de escena:** Por ejemplo, Retrato, Paisaje, Urbano, Natural, Nocturno.
   - **Estado de ánimo:** Ejemplos: sereno, vibrante, melancólico, dinámico, misterioso.
   - **Fondo o ambientación:** Ejemplos: ciudad, naturaleza, interior, atardecer, amanecer.
   - **Nivel de detalle y saturación:** Configurables mediante sliders (porcentaje de detalle y vivacidad de colores).
   - **Elementos adicionales:** Opciones como efectos de luz, composición artística, iluminación dramática, alta resolución, detalles intrincados.
-- **Generación automática del prompt:**  
+- **Generación Automática del Prompt:**  
   Las opciones seleccionadas se combinan para formar un prompt detallado en inglés que se envía a la API de Stable Diffusion Web UI.
 - **Integración con la API de Stable Diffusion:**  
   Permite generar imágenes de forma remota, aprovechando el poder del modelo seleccionado.
 
 ## Uso
 
-- **Configuración de parámetros:**  
+- **Configuración de Parámetros:**  
   Utiliza la barra lateral para seleccionar el tipo de escena, estado de ánimo, fondo, nivel de detalle, saturación y otros elementos adicionales.
-- **Visualización del prompt:**  
+- **Visualización del Prompt:**  
   La aplicación muestra el prompt generado a partir de tus selecciones para que puedas revisarlo.
-- **Generación de la imagen:**  
-  Haz clic en el botón **"Generar imagen"** para enviar el prompt a la API y obtener la imagen generada, la cual se mostrará en la interfaz.
+- **Generación de la Imagen:**  
+  Haz clic en el botón **"Generar Imagen"** para enviar el prompt a la API y obtener la imagen generada, la cual se mostrará en la interfaz.
 
-## Capturas de pantalla y ejemplos
+## Capturas de Pantalla y Ejemplos
 
 _A continuación, se muestran algunas capturas de pantalla de la aplicación en funcionamiento y ejemplos de imágenes generadas:_
 
