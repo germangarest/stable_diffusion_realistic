@@ -31,7 +31,7 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 
 - **Interfaz Web Interactiva:**  
   Desarrollada en *Streamlit*, RealGEN ofrece una experiencia intuitiva y moderna.
-  
+
 - **Selección de Parámetros:**  
   Permite personalizar distintos aspectos de la imagen:
   - **Tipo de Escena:**  
@@ -44,7 +44,7 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
     Dos sliders para ajustar el porcentaje de detalle y la saturación de colores.
   - **Elementos Adicionales:**  
     Permite añadir características extra mediante un menú multiselección: *efectos de luz, composición artística, iluminación dramática, alta resolución, detalles intrincados*.
-    
+
 - **Generación Automática del Prompt:**  
   Combina las opciones seleccionadas para construir un prompt en inglés, listo para ser enviado a la API.
 
@@ -61,7 +61,7 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
      - **Selectboxes:** Para elegir el *Tipo de Escena*, *Estado de Ánimo* y *Fondo*.
      - **Sliders:** Para ajustar el *Nivel de Detalle* y el *Nivel de Colorido*.
      - **Multiselect:** Para seleccionar uno o varios *Elementos Adicionales*.
-     
+
 2. **Visualización del Prompt:**  
    La aplicación muestra, dentro de un contenedor expandible, el prompt generado a partir de las opciones seleccionadas.
 
@@ -79,41 +79,55 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="600"/></td>
-    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="600"/></td>
+    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="300"/></td>
+    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="300"/></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="600"/></td>
-  </tr>
-</table>
-</div>
-
-### Ejemplos de Imágenes Generadas
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center"><img src="img/img_1.png" alt="Imagen 1" width="300"/></td>
-    <td align="center"><img src="img/img_2.png" alt="Imagen 2" width="300"/></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="img/img_3.png" alt="Imagen 3" width="300"/></td>
-    <td align="center"><img src="img/img_4.png" alt="Imagen 4" width="300"/></td>
+    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="300"/></td>
   </tr>
 </table>
 </div>
 
-### Parámetros Utilizados para Cada Imagen
+### Ejemplos de Imágenes Generadas y sus Parámetros
 
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="img/parametro_1.png" alt="Parámetros Imagen 1" width="300"/></td>
-    <td align="center"><img src="img/parametro_2.png" alt="Parámetros Imagen 2" width="300"/></td>
+    <td align="center">
+      <img src="img/img_1.png" alt="Imagen 1" width="300"/><br>
+      <strong>Imagen 1</strong><br>
+      Tipo de escena: Retrato<br>
+      Estado de ánimo: Sereno<br>
+      Fondo: Ciudad
+    </td>
+    <td align="center">
+      <img src="img/img_2.png" alt="Imagen 2" width="300"/><br>
+      <strong>Imagen 2</strong><br>
+      Tipo de escena: Paisaje<br>
+      Estado de ánimo: Melancólico<br>
+      Fondo: Interior
+    </td>
   </tr>
   <tr>
-    <td align="center"><img src="img/parametro_3.png" alt="Parámetros Imagen 3" width="300"/></td>
-    <td align="center"><img src="img/parametro_4.png" alt="Parámetros Imagen 4" width="300"/></td>
+    <td align="center">
+      <img src="img/img_3.png" alt="Imagen 3" width="300"/><br>
+      <strong>Imagen 3</strong><br>
+      Tipo de escena: Nocturno<br>
+      Estado de ánimo: Misterioso<br>
+      Fondo: Atardecer<br>
+      35% de detalle<br>
+      40% de colorido
+    </td>
+    <td align="center">
+      <img src="img/img_4.png" alt="Imagen 4" width="300"/><br>
+      <strong>Imagen 4</strong><br>
+      Tipo de escena: Retrato<br>
+      Estado de ánimo: Vibrante<br>
+      Fondo: Naturaleza<br>
+      100% de detalle<br>
+      100% de colorido<br>
+      60 pasos (esta en 20 por defecto)
+    </td>
   </tr>
 </table>
 </div>
