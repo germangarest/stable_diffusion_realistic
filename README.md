@@ -99,6 +99,8 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
       Tipo de escena: Retrato<br>
       Estado de ánimo: Sereno<br>
       Fondo: Ciudad
+      70% de detalle<br>
+      80% de colorido<br>
     </td>
     <td align="center">
       <img src="img/img_2.png" alt="Imagen 2" width="300"/><br>
@@ -106,6 +108,8 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
       Tipo de escena: Paisaje<br>
       Estado de ánimo: Melancólico<br>
       Fondo: Interior
+      70% de detalle<br>
+      80% de colorido<br>
     </td>
   </tr>
   <tr>
@@ -126,7 +130,7 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
       Fondo: Naturaleza<br>
       100% de detalle<br>
       100% de colorido<br>
-      60 pasos (esta en 20 por defecto)
+      60 pasos (se hace en 20 por defecto)
     </td>
   </tr>
 </table>
