@@ -79,11 +79,11 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="300"/></td>
-    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="300"/></td>
+    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="600"/></td>
+    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="600"/></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="300"/></td>
+    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="600"/></td>
   </tr>
 </table>
 </div>
@@ -108,12 +108,12 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="img/parametros_1.png" alt="Parámetros Imagen 1" width="300"/></td>
-    <td align="center"><img src="img/parametros_2.png" alt="Parámetros Imagen 2" width="300"/></td>
+    <td align="center"><img src="img/parametro_1.png" alt="Parámetros Imagen 1" width="300"/></td>
+    <td align="center"><img src="img/parametro_2.png" alt="Parámetros Imagen 2" width="300"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="img/parametros_3.png" alt="Parámetros Imagen 3" width="300"/></td>
-    <td align="center"><img src="img/parametros_4.png" alt="Parámetros Imagen 4" width="300"/></td>
+    <td align="center"><img src="img/parametro_3.png" alt="Parámetros Imagen 3" width="300"/></td>
+    <td align="center"><img src="img/parametro_4.png" alt="Parámetros Imagen 4" width="300"/></td>
   </tr>
 </table>
 </div>
