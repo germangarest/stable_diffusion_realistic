@@ -1,16 +1,16 @@
-# RealGEN
+# RealGEN 🎨
 
-RealGEN es una aplicación web que permite generar imágenes **realistas** utilizando la API de Stable Diffusion Web UI. En lugar de escribir un prompt manualmente, se ofrecen controles interactivos (selectboxes, sliders, multiselect, etc.) para configurar los parámetros deseados. La aplicación construye automáticamente un prompt detallado en inglés, que se envía a la API para generar la imagen.
+RealGEN es una aplicación web que permite generar imágenes **realistas** utilizando la API de Stable Diffusion Web UI. En lugar de escribir un prompt manualmente, puedes configurar todos los parámetros deseados mediante controles interactivos (selectboxes, sliders, multiselect, etc.). La aplicación construye automáticamente un prompt detallado en inglés y lo envía a la API para generar la imagen.
 
-<div align="center">
+<div align="left">
   <img src="img/logo.png" alt="Logo RealGEN" width="400"/>
 </div>
 
-Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia Artificial y Big Data*.
+_Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Artificial y Big Data**_ 🎓
 
 ---
 
-## Integrantes del Equipo
+## 👥 Integrantes del Equipo
 
 | [![Jairo Andrades Bueno](https://github.com/jairopo.png?size=100)](https://github.com/jairopo) | [![Germán García Estévez](https://github.com/germangarest.png?size=100)](https://github.com/germangarest) |
 |:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
@@ -18,72 +18,70 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 
 ---
 
-## Modelo Utilizado
+## 🏷️ Modelo Utilizado
 
 - **Nombre:** Re3mix-realisticV2-Hyper
 - **Descripción:**  
-  Modelo completo en formato safetensors, diseñado para generar imágenes de alta fidelidad y realismo, capturando detalles precisos y una estética similar a la fotografía. Ideal para crear retratos, paisajes, escenas urbanas o naturales con gran nivel de detalle.
+  Modelo completo en formato *safetensors*, diseñado para generar imágenes de alta fidelidad y realismo. Captura detalles precisos y ofrece una estética similar a la fotografía, ideal para retratos, paisajes, escenas urbanas o naturales.
 - **Enlace:** [Re3mix-realisticV2-Hyper en Civitai](https://civitai.com/models/560176/re3mix-realisticv2-hyper?modelVersionId=623806)
 
 ---
 
-## Características de la Aplicación
+## 🚀 Características de la Aplicación
 
 - **Interfaz Web Interactiva:**  
   Desarrollada en *Streamlit*, RealGEN ofrece una experiencia intuitiva y moderna.
 
 - **Selección de Parámetros:**  
-  Permite personalizar distintos aspectos de la imagen:
+  Personaliza tu imagen con:
   - **Tipo de Escena:**  
-    Define el contexto visual. Opciones: *Retrato, Paisaje, Urbano, Natural, Nocturno*.
+    *(Ej.: Retrato, Paisaje, Urbano, Natural, Nocturno)*
   - **Estado de Ánimo:**  
-    Establece la atmósfera de la imagen. Opciones: *sereno, vibrante, melancólico, dinámico, misterioso*.
+    *(Ej.: sereno, vibrante, melancólico, dinámico, misterioso)*
   - **Fondo o Ambientación:**  
-    Selecciona el entorno. Opciones: *ciudad, naturaleza, interior, atardecer, amanecer*.
-  - **Nivel de Detalle (%) y Nivel de Colorido (%):**  
-    Dos sliders para ajustar el porcentaje de detalle y la saturación de colores.
+    *(Ej.: ciudad, naturaleza, interior, atardecer, amanecer)*
+  - **Nivel de Detalle (%) y Colorido (%):**  
+    Ajusta estos parámetros mediante sliders.
   - **Elementos Adicionales:**  
-    Permite añadir características extra mediante un menú multiselección: *efectos de luz, composición artística, iluminación dramática, alta resolución, detalles intrincados*.
+    Añade extras como *efectos de luz, composición artística, iluminación dramática, alta resolución, detalles intrincados* mediante un menú multiselección.
 
 - **Generación Automática del Prompt:**  
-  Combina las opciones seleccionadas para construir un prompt en inglés, listo para ser enviado a la API.
+  Combina todas tus selecciones para crear un prompt en inglés listo para enviar a la API.
 
 - **Integración con la API de Stable Diffusion:**  
-  Al pulsar el botón **"Generar Imagen"**, el prompt se envía a la API para generar la imagen, la cual se muestra en la interfaz. Además, se incluye la opción de descargar la imagen generada.
+  ¡Solo haz clic en **"Generar Imagen"**! La imagen se muestra en pantalla y puedes descargarla en formato PNG. 📥
 
 ---
 
-## Funcionamiento y Uso
+## ⚙️ Funcionamiento y Uso
 
 1. **Configuración de Parámetros:**  
-   - **Barra Lateral:**  
-     Aquí se encuentran todos los controles interactivos:
-     - **Selectboxes:** Para elegir el *Tipo de Escena*, *Estado de Ánimo* y *Fondo*.
-     - **Sliders:** Para ajustar el *Nivel de Detalle* y el *Nivel de Colorido*.
-     - **Multiselect:** Para seleccionar uno o varios *Elementos Adicionales*.
+   Usa la barra lateral para:
+   - Elegir el **Tipo de Escena**, **Estado de Ánimo** y **Fondo** (selectboxes).
+   - Ajustar el **Nivel de Detalle** y **Colorido** (sliders).
+   - Seleccionar **Elementos Adicionales** (multiselect).
 
 2. **Visualización del Prompt:**  
-   La aplicación muestra, dentro de un contenedor expandible, el prompt generado a partir de las opciones seleccionadas.
+   Revisa el prompt generado en un contenedor expandible antes de enviarlo.
 
 3. **Generación y Descarga de la Imagen:**  
-   - Al pulsar **"Generar Imagen"**, se envía el prompt a la API (mostrando un spinner durante el proceso).
-   - La imagen generada se visualiza en la interfaz.
-   - Se ofrece un botón para descargar la imagen en formato PNG.
+   - Pulsa **"Generar Imagen"** y observa el spinner mientras se procesa tu solicitud.
+   - Visualiza la imagen generada y descarga el archivo PNG si lo deseas.
 
 ---
 
-## Capturas de Pantalla y Ejemplos
+## 📸 Capturas de Pantalla y Ejemplos
 
 ### Interfaz de la Aplicación
 
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="300"/></td>
-    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="300"/></td>
+    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="600"/></td>
+    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="600"/></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="300"/></td>
+    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="600"/></td>
   </tr>
 </table>
 </div>
@@ -95,42 +93,42 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
   <tr>
     <td align="center">
       <img src="img/img_1.png" alt="Imagen 1" width="300"/><br>
-      <strong>Imagen 1</strong><br>
-      Tipo de escena: Retrato<br>
-      Estado de ánimo: Sereno<br>
-      Fondo: Ciudad
+      <strong>Imagen 1</strong> 😊<br>
+      Tipo de escena: **Retrato**<br>
+      Estado de ánimo: **Sereno**<br>
+      Fondo: **Ciudad**<br>
       70% de detalle<br>
-      80% de colorido<br>
+      80% de colorido
     </td>
     <td align="center">
       <img src="img/img_2.png" alt="Imagen 2" width="300"/><br>
-      <strong>Imagen 2</strong><br>
-      Tipo de escena: Paisaje<br>
-      Estado de ánimo: Melancólico<br>
-      Fondo: Interior
+      <strong>Imagen 2</strong> 🌄<br>
+      Tipo de escena: **Paisaje**<br>
+      Estado de ánimo: **Melancólico**<br>
+      Fondo: **Interior**<br>
       70% de detalle<br>
-      80% de colorido<br>
+      80% de colorido
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="img/img_3.png" alt="Imagen 3" width="300"/><br>
-      <strong>Imagen 3</strong><br>
-      Tipo de escena: Nocturno<br>
-      Estado de ánimo: Misterioso<br>
-      Fondo: Atardecer<br>
+      <strong>Imagen 3</strong> 🌌<br>
+      Tipo de escena: **Nocturno**<br>
+      Estado de ánimo: **Misterioso**<br>
+      Fondo: **Atardecer**<br>
       35% de detalle<br>
       40% de colorido
     </td>
     <td align="center">
       <img src="img/img_4.png" alt="Imagen 4" width="300"/><br>
-      <strong>Imagen 4</strong><br>
-      Tipo de escena: Retrato<br>
-      Estado de ánimo: Vibrante<br>
-      Fondo: Naturaleza<br>
+      <strong>Imagen 4</strong> 🌿<br>
+      Tipo de escena: **Retrato**<br>
+      Estado de ánimo: **Vibrante**<br>
+      Fondo: **Naturaleza**<br>
       100% de detalle<br>
       100% de colorido<br>
-      60 pasos (se hace en 20 por defecto)
+      60 pasos (por defecto se usa 20)
     </td>
   </tr>
 </table>
@@ -138,6 +136,6 @@ Este proyecto se realizó como parte del curso de *Máster de FP en Inteligencia
 
 ---
 
-## Conclusiones
+## 📝 Conclusiones
 
-RealGEN demuestra cómo simplificar el proceso de generación de imágenes realistas mediante una interfaz intuitiva y controles personalizables. La integración con la API de Stable Diffusion y el uso del modelo **Re3mix-realisticV2-Hyper** permiten obtener resultados de alta calidad sin requerir conocimientos técnicos avanzados. Esta herramienta es ideal para exploraciones creativas y para generar contenido visual en diversos ámbitos.
+RealGEN simplifica la generación de imágenes realistas con una interfaz intuitiva y controles personalizables. Gracias a la integración con la API de Stable Diffusion y el uso del modelo **Re3mix-realisticV2-Hyper**, se obtienen resultados de alta calidad sin necesidad de conocimientos técnicos avanzados. ¡Ideal para explorar tu creatividad y generar contenido visual impresionante! 🚀
