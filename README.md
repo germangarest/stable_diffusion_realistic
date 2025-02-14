@@ -77,11 +77,11 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="img/interfaz_1.png" alt="Interfaz Principal" width="600"/></td>
-    <td align="center"><img src="img/interfaz_2.png" alt="Configuración de Parámetros" width="600"/></td>
+    <td align="center"><img src="img/interfaz_2.png" alt="Interfaz Principal" width="600"/></td>
+    <td align="center"><img src="img/interfaz_3.png" alt="Configuración de Parámetros" width="600"/></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="img/interfaz_3.png" alt="Visualización del Prompt" width="600"/></td>
+    <td colspan="2" align="center"><img src="img/interfaz_1.png" alt="Visualización del Prompt" width="600"/></td>
   </tr>
 </table>
 </div>
