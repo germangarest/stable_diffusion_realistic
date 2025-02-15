@@ -12,7 +12,7 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 
 ## 🚀 Acceso y despliegue en vivo
 
-La aplicación web ha sido implementada en un servidor de **HostHatch**, donde se ejecutan tanto la API de Stable Diffusion como la interfaz de **Streamlit**, para así poder probarla en vivo. Para evitar sobrecargas y ataques maliciosos, **se requiere una contraseña** para acceder a la aplicación.
+La aplicación web ha sido implementada en un servidor, donde se ejecutan tanto la API de Stable Diffusion como la interfaz de **Streamlit**, para así poder probarla en vivo. Para evitar sobrecargas y ataques maliciosos, **se requiere una contraseña** para acceder a la aplicación.
 
 - **Enlace para probar la aplicación en vivo:**  
   [RealGEN](https://realgen.germange.com/)
