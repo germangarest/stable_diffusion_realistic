@@ -149,7 +149,7 @@ La aplicación web ha sido implementada en un servidor de **HostHatch**, donde s
 </table>
 </div>
 
-Estas imágenes fueron generadas con 20 pasos (excepto la última con 60), y a una resolución de 512x512. Para el despliegue final en el servidor, se limitaron los pasos a 30 (para evitar tiempos de espera excesivos), y se estableció un valor de 5 pasos por defecto, con la misma resolución de 512x512, pues se llegó a la conclusión de que estos eran los mejores parámetros para poder generar una buena imagen sin tener que esperar demasiado (con estos parámetros por defectos el tiempo aprox. de generación es de aprox. 1:30 minutos / 2 minutos.
+Estas imágenes fueron generadas con 20 pasos (excepto la última con 60), y a una resolución de 512x512. Para el despliegue final en el servidor, se limitaron los pasos a 30 (para evitar tiempos de espera excesivos), y se estableció un valor de 5 pasos por defecto, con la misma resolución de 512x512, pues se llegó a la conclusión de que estos eran los mejores parámetros para poder generar una imagen decente sin tener que esperar demasiado (con estos parámetros por defectos el tiempo aprox. de generación es de aprox. 1:30 minutos / 2 minutos). Para obtener mejores resultados, subir los pasos a 20.
 
 ---
 
