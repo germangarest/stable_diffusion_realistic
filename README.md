@@ -1,6 +1,6 @@
 # RealGEN 🎨
 
-RealGEN es una aplicación web que permite generar imágenes **realistas** utilizando la API de Stable Diffusion Web UI. En lugar de escribir un prompt manualmente, puedes configurar todos los parámetros deseados mediante controles interactivos (selectboxes, sliders, multiselect, etc.). La aplicación construye automáticamente un prompt detallado en inglés y lo envía a la API para generar la imagen.
+RealGEN es una aplicación web que permite generar imágenes **realistas** utilizando la API de Stable Diffusion Web UI. En lugar de escribir un prompt manualmente, puedes configurar todos los parámetros deseados mediante controles interactivos (seleccionables, sliders, etc.). La aplicación construye automáticamente un prompt detallado en inglés y lo envía a la API para generar la imagen.
 
 <div align="left">
   <img src="img/logo.png" alt="Logo RealGEN" width="400"/>
@@ -10,7 +10,19 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 
 ---
 
-## 👥 Integrantes del Equipo
+## 🚀 Acceso y despliegue en vivo
+
+La aplicación web ha sido implementada en un servidor de **HostHatch**, donde se ejecutan tanto la API de Stable Diffusion como la interfaz de **Streamlit**, para así poder probarla en vivo. Para evitar sobrecargas y ataques maliciosos, **se requiere una contraseña** para acceder a la aplicación.
+
+- **Enlace para probar la aplicación en vivo:**  
+  [RealGEN](https://realgen.germange.com/)
+
+- **Nota de seguridad:**  
+  Para obtener la contraseña de acceso y probar la aplicación, contacta a través de [LinkedIn](https://www.linkedin.com/in/germangarest/).
+
+---
+
+## 👥 Integrantes del equipo
 
 | [![Jairo Andrades Bueno](https://github.com/jairopo.png?size=100)](https://github.com/jairopo) | [![Germán García Estévez](https://github.com/germangarest.png?size=100)](https://github.com/germangarest) |
 |:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
@@ -18,7 +30,7 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 
 ---
 
-## 🏷️ Modelo Utilizado
+## 🏷️ Modelo utilizado
 
 - **Nombre:** Re3mix-realisticV2-Hyper
 - **Descripción:**  
@@ -27,25 +39,25 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 
 ---
 
-## 🚀 Características de la Aplicación
+## ⚙️ Características de la aplicación
 
-- **Interfaz Web Interactiva:**  
-  Desarrollada en *Streamlit*, RealGEN ofrece una experiencia intuitiva y moderna.
+- **Interfaz web interactiva:**  
+  Desarrollada en *Streamlit*, RealGEN ofrece una experiencia intuitiva y moderna. La aplicación incorpora un **sistema de control de acceso con contraseña** para evitar accesos no autorizados y proteger los recursos del servidor.
 
-- **Selección de Parámetros:**  
+- **Selección de parámetros:**  
   Personaliza tu imagen con:
-  - **Tipo de Escena:**  
+  - **Tipo de escena:**  
     *(Ej.: Retrato, Paisaje, Urbano, Natural, Nocturno)*
-  - **Estado de Ánimo:**  
+  - **Estado de ánimo:**  
     *(Ej.: sereno, vibrante, melancólico, dinámico, misterioso)*
-  - **Fondo o Ambientación:**  
+  - **Fondo o ambientación:**  
     *(Ej.: ciudad, naturaleza, interior, atardecer, amanecer)*
-  - **Nivel de Detalle (%) y Colorido (%):**  
+  - **Nivel de detalle (%) y colorido (%):**  
     Ajusta estos parámetros mediante sliders.
-  - **Elementos Adicionales:**  
+  - **Elementos adicionales:**  
     Añade extras como *efectos de luz, composición artística, iluminación dramática, alta resolución, detalles intrincados* mediante un menú multiselección.
 
-- **Generación Automática del Prompt:**  
+- **Generación automática del prompt:**  
   Combina todas tus selecciones para crear un prompt en inglés listo para enviar a la API.
 
 - **Integración con la API de Stable Diffusion:**  
@@ -53,26 +65,29 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 
 ---
 
-## ⚙️ Funcionamiento y Uso
+## 🔧 Funcionamiento y uso
 
-1. **Configuración de Parámetros:**  
+1. **Acceso seguro:**  
+   Al ingresar a la aplicación, se solicitará una contraseña. Solo los usuarios autorizados pueden acceder, lo que ayuda a prevenir sobrecargas y ataques maliciosos.
+
+2. **Configuración de parámetros:**  
    Usa la barra lateral para:
-   - Elegir el **Tipo de Escena**, **Estado de Ánimo** y **Fondo** (selectboxes).
-   - Ajustar el **Nivel de Detalle** y **Colorido** (sliders).
-   - Seleccionar **Elementos Adicionales** (multiselect).
+   - Elegir el **tipo de escena**, **estado de ánimo** y **fondo** (selectboxes).
+   - Ajustar el **nivel de detalle** y **colorido** (sliders).
+   - Seleccionar **elementos adicionales** (multiselect).
 
-2. **Visualización del Prompt:**  
+3. **Visualización del prompt:**  
    Revisa el prompt generado en un contenedor expandible antes de enviarlo.
 
-3. **Generación y Descarga de la Imagen:**  
-   - Pulsa **"Generar Imagen"** y observa el spinner mientras se procesa tu solicitud.
+4. **Generación y descarga de la imagen:**  
+   - Pulsa **"generar imagen"** y observa el spinner mientras se procesa tu solicitud.
    - Visualiza la imagen generada y descarga el archivo PNG si lo deseas.
 
 ---
 
-## 📸 Capturas de Pantalla y Ejemplos
+## 📸 Capturas de pantalla y ejemplos
 
-### Interfaz de la Aplicación
+### Interfaz de la aplicación
 
 <div align="center">
 <table>
@@ -86,7 +101,7 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 </table>
 </div>
 
-### Ejemplos de Imágenes Generadas y sus Parámetros
+### Ejemplos de imágenes generadas y sus parámetros
 
 <div align="center">
 <table>
@@ -134,8 +149,12 @@ _Proyecto realizado como parte del curso de **Máster de FP en Inteligencia Arti
 </table>
 </div>
 
+Estas imágenes fueron generadas con 20 pasos (excepto la última con 60), y a una resolución de 512x512. Para el despliegue final en el servidor, se limitaron los pasos a 30, y se estableció un valor de 5 pasos por defecto, a la misma resolución de 512x512, pues se llegó a la conclusión de que estos eran los mejores parámetros para poder generar una buena imagen sin tener que esperar demasiado (con estos parámetros por defectos el tiempo aprox. de generación es de aprox. 1:30 minutos / 2 minutos.
+
 ---
 
 ## 📝 Conclusiones
 
-RealGEN simplifica la generación de imágenes realistas con una interfaz intuitiva y controles personalizables. Gracias a la integración con la API de Stable Diffusion y el uso del modelo **Re3mix-realisticV2-Hyper**, se obtienen resultados de alta calidad sin necesidad de conocimientos técnicos avanzados. ¡Ideal para explorar tu creatividad y generar contenido visual impresionante! 🚀
+RealGEN simplifica la generación de imágenes realistas con una interfaz intuitiva y controles personalizables. Gracias a la integración con la API de Stable Diffusion y el uso del modelo **Re3mix-realisticV2-Hyper**, se obtienen resultados de alta calidad sin necesidad de conocimientos técnicos avanzados.
+
+¡Ideal para explorar tu creatividad y generar contenido visual impresionante! 🚀
