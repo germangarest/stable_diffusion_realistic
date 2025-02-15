@@ -15,7 +15,7 @@ if not st.session_state.authenticated:
     password = password_container.text_input("Ingrese la contraseña para acceder", type="password")
     
     if password:
-        if password == "AlanTuring2025":
+        if password == "-":
             st.session_state.authenticated = True
             password_container.empty()
         else:
